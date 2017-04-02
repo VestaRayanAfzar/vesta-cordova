@@ -3,7 +3,7 @@ import {CordovaPlugin} from "./CordovaPlugin";
 /**
  * cordova-plugin-x-socialsharing
  */
-export class SharePlugin extends CordovaPlugin {
+export class SharingPlugin extends CordovaPlugin {
     private socialSharing: any;
 
     constructor() {

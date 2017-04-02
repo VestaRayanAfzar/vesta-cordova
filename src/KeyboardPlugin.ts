@@ -1,5 +1,8 @@
 import {CordovaPlugin} from "./CordovaPlugin";
 
+/**
+ * cordova-plugin-keyboard
+ */
 export class KeyboardPlugin extends CordovaPlugin {
     private keyboard: any;
 
