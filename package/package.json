@@ -1,28 +1,22 @@
 {
-  "name": "vesta-cordova",
+  "name": "@vesta/cordova",
   "version": "0.1.0",
   "description": "Vesta platform cordova plugins",
   "keywords": [],
   "main": "index.js",
   "typings": "index.d.ts",
+  "repository": "https://github.com/VestaRayanAfzar/vesta-cordova.git",
   "scripts": {
     "test": "node node_modules/jasmine-node/bin/jasmine-node package/test --autotest --watch package/ --color --verbose",
     "dev": "tsc -w -p ."
   },
   "author": "hbtb <bishehsary@gmail.com>",
   "contributors": [
-    {
-      "name": "javadkh2",
-      "email": "khalilian.javad@gmail.com"
-    }
+    "javadkh2 <khalilian.javad@gmail.com>"
   ],
   "bugs": {
     "url": "https://github.com/VestaRayanAfzar/vesta-cordova/issues",
     "email": "bishehsary@gmail.com"
   },
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VestaRayanAfzar/vesta-cordova.git"
-  }
+  "license": "Apache-2.0"
 }
