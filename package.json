@@ -3,29 +3,33 @@
   "version": "0.1.1",
   "private": true,
   "description": "Vesta platform cordova plugins",
-  "keywords": [],
   "scripts": {
     "test": "node node_modules/jasmine-node/bin/jasmine-node package/test --autotest --watch package/ --color --verbose",
     "dev": "tsc -w -p ."
   },
   "author": "hbtb <bishehsary@gmail.com>",
   "contributors": [
-    {
-      "name": "javadkh2",
-      "email": "khalilian.javad@gmail.com"
-    }
+    "javadkh2 <khalilian.javad@gmail.com>"
   ],
   "bugs": {
     "url": "https://github.com/VestaRayanAfzar/vesta-cordova/issues",
     "email": "bishehsary@gmail.com"
   },
   "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VestaRayanAfzar/vesta-cordova.git"
-  },
+  "repository": "https://github.com/VestaRayanAfzar/vesta-cordova.git",
   "dependencies": {},
   "devDependencies": {
+    "@types/cordova": "^0.0.34",
+    "@types/cordova-plugin-camera": "^0.0.3",
+    "@types/cordova-plugin-file": "^0.0.3",
+    "@types/cordova-plugin-file-transfer": "^0.0.3",
+    "@types/cordova-plugin-media": "^0.0.3",
+    "@types/cordova-plugin-media-capture": "^0.0.3",
+    "@types/cordova-plugin-network-information": "^0.0.3",
+    "@types/cordova-plugin-splashscreen": "^0.0.3",
+    "@types/cordova-plugin-statusbar": "^0.0.3",
+    "@types/cordova-plugin-x-socialsharing": "^5.0.22",
+    "@types/es6-promise": "^0.0.32",
     "jasmine-core": "^2.4.1",
     "jasmine-node": "^1.14.5",
     "typescript": "^2.1.5",
