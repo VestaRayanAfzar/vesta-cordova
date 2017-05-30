@@ -1,6 +1,6 @@
 {
-  "name": "vesta-cordova",
-  "version": "0.1.0",
+  "name": "@vesta/cordova",
+  "version": "0.1.1",
   "description": "Vesta platform cordova plugins",
   "keywords": [],
   "main": "index.js",
