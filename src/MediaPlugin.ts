@@ -60,11 +60,11 @@ export class MediaPlugin extends CordovaPlugin {
     public takePicture(option: CameraOptions): Promise<FileEntry> {
         option.encodingType = option.encodingType || EncodingType.JPEG;
         option.mediaType = option.mediaType || MediaType.PICTURE;
-        option.sourceType = option.sourceType || PictureSourceType.CAMERA;
+        option.sourceType = option.sourceType || PictureSourceType.PHOTOLIBRARY;
         option.destinationType = option.destinationType || DestinationType.FILE_URI;
         option.quality = option.quality || 50;
         return new Promise<FileEntry>((resolve, reject) => {
-            this.camera.getPicture((image: string) => this.filePlugin.resolveNativePath(image), (error: string) => reject(new Error(error)), option);
+            this.camera.getPicture((image: string) => resolve(this.filePlugin.resolveNativePath(image)), (error: string) => reject(new Error(error)), option);
         });
     }
 
